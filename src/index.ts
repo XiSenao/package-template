@@ -1,7 +1,2 @@
-import { add } from "./add";
-
-export { add };
-
-export default {
-  add,
-};
+// Type declarations for all exported modules
+export { add } from "./math/add";

@@ -8,10 +8,5 @@ export default defineConfig({
     alias: {
       "~": resolve(__dirname, "src"),
     },
-  },
-  test: {
-    deps: {
-      inline: ["minifaker"],
-    },
-  },
+  }
 });
